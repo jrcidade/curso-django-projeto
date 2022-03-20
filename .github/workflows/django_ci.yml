@@ -9,7 +9,6 @@ jobs:
       PIPENV_IGNORE_VIRTUALENVS: 1
     runs-on: ubuntu-latest
 
-    services:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.9
@@ -17,9 +16,6 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Copyng configurations
-        run: |
-          cp contrib/env-sample .env
       - name: Install dependencies
         run: |
           pip install pipenv
