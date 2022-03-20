@@ -9,7 +9,6 @@ jobs:
       PIPENV_IGNORE_VIRTUALENVS: 1
     runs-on: ubuntu-latest
 
-    services:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.9
