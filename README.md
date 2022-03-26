@@ -1,2 +1,2 @@
 # curso-django-projeto
-Aplicando Django
+Projeto com Django
